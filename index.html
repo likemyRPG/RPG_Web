@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>likemyRPG</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">
+                Hello, I am 
+                <span class="name">
+                    likemyRPG
+                </span>
+            </h1>
+            <h2 class="subtitle">
+                Software Developer
+            </h2>
+        </div>
+        <div class="socials">
+            <a href="mailto:likemyrpg@gmail.com">
+                <img src="assets/email.png" alt="mail" width="50px" height="50px">
+            </a>
+            <a href="https://discordapp.com/users/295284210820841472">
+                <img src="assets/discord.png" alt="discord" width="50px" height="50px">
+            </a>
+            <a href="https://github.com/likemyRPG">
+                <img src="assets/github.png" alt="github" width="50px" height="50px">
+            </a>
+            <a href="https://telegram.me/likemyRPG">
+                <img src="assets/telegram.png" alt="telegram" width="50px" height="50px">
+            </a>
+            <a href="https://twitter.com/likemyRPG">
+                <img src="assets/twitter.png" alt="twitter" width="50px" height="50px">
+            </a>
+        </div>
+        <div class = "footer">
+            <p>© 2023 likemyRPG</p>
+            <p>
+                <a href="https://www.flaticon.com" title="Icons">
+                    Icons created by Pixel perfect - Flaticon
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(24, 24, 24);
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
+        text-align: left;
+    }
+
+    .name {
+        color: #00d5ff;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .socials img {
+        width: 50px;
+        height: 50px;
+        margin: 0 1rem;
+        transition: transform 0.5s;
+    }
+
+    .socials img:hover {
+        transform: scale(1.1);
+    }
+
+    .socials img {
+        margin: 0 0.5rem;
+    }
+
+    .socials img:hover {
+        transform: scale(1.1);
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .footer p {
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .footer a {
+        color: #00d5ff;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .title {
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .title {
+            font-size: 2rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .title {
+            font-size: 1.5rem;
+        }
+        .subtitle {
+            font-size: 0.8rem;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .title {
+            font-size: 1rem;
+        }
+        .subtitle {
+            font-size: 0.6rem;
+        }
+    }
+</style>
